@@ -35,7 +35,6 @@ int main() {
   std::cout << "mnist test number: " << dataset.test_labels.cols() << std::endl;
   // dnn
   Network dnn;
-  Network dnn;
   Layer* conv1 = new Conv(1, 28, 28, 6, 5, 5); // input: 28x28
   Layer* pool1 = new MaxPooling(6, 24, 24, 2, 2, 2); // feature map 24x24: 28-5+1=24
   Layer* conv2 = new Conv(6, 12, 12, 16, 5, 5); // input: 12x12: 24/2 = 12
