@@ -7,6 +7,7 @@
 #include "./loss.h"
 #include "./optimizer.h"
 #include "./utils.h"
+#include <fstream>
 
 class Network {
  private:
