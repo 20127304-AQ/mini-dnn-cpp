@@ -16,3 +16,7 @@ Run `./demo`.
 Result: 
 simple neural network with 3 FC layers can obtain `0.97+` accuracy on MNIST testset.
 LeNet-like CNN can obtain `0.98+` accuracy on MNIST testset.
+
+## Modification
+- Apply model Lenet 5.
+- Save and the hyperparameters of the model and infer only.
